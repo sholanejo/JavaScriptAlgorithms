@@ -22,7 +22,7 @@ const convertTo24HoursFormat = time => {
     } else if (arr[0] < 12 && arr[1][2] === 'A') {
         return time;
     } else {
-        'Please enter the time input in the correct format (HH:MM)';
+        return 'Please enter the time input in the correct format (HH:MM)';
     }
 
 }
