@@ -1,5 +1,5 @@
 //write a function which can convert the the input given
-//in 12 hours format to 24 hours format.
+//in 12 hours format to 24 hours format... 
 
 
 const convertTo24HoursFormat = time => {
